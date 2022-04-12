@@ -6,16 +6,10 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"name": "deposit",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -35,6 +29,19 @@
 					}
 				],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amountInEth",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -66,11 +73,11 @@
 	},
 	"sources": {
 		"tutorial2/DepositAndRefund.sol": {
-			"keccak256": "0x6405feacedfff27e0c084ba4c83b375abe11c78d1470a14dda3361a0d0d555de",
+			"keccak256": "0x63588f3244314827749a94ca7fa49e219864259e3a9599bb9d1153422fc60d8c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2266039acdc03449088ddacb85c50b79f9a11c4017e3be700777d03ea09a8657",
-				"dweb:/ipfs/QmSNMBwFQbnqWkHpRDiDohkBbTdqkskVk4srdZZ1AzmgF7"
+				"bzz-raw://6cc481937208214f3b6c6f55eb609831af1300d8d361115f5240b8ea9bf81040",
+				"dweb:/ipfs/QmVYTkop5z6RmLfmjHnY4wYsTqXVGKX7NcbdkcWYe6NbAB"
 			]
 		}
 	},
